@@ -1,0 +1,135 @@
+[
+    {
+        "patient": {
+            "nom": "nom1",
+            "prenom": "prenom1",
+            "nir": "123051010123456",
+            "date_naissance": "1990-01-10"
+        },
+        "expected_status": 201
+    },
+    {
+        "patient": {
+            "nom": "nom2",
+            "prenom": "prenom2",
+            "nir": "223106150123457",
+            "date_naissance": "1992-06-15"
+        },
+        "expected_status": 201
+    },
+    {
+        "patient": {
+            "nom": "nom3",
+            "prenom": "prenom3",
+            "nir": "223047200123458",
+            "date_naissance": "1985-07-20"
+        },
+        "expected_status": 201
+    },
+    {
+        "patient": {
+            "nom": "nom4",
+            "prenom": "prenom4",
+            "nir": "123073150123459",
+            "date_naissance": "1988-03-15"
+        },
+        "expected_status": 201
+    },
+    {
+        "patient": {
+            "nom": "nom5",
+            "prenom": "prenom5",
+            "nir": "123112050123460",
+            "date_naissance": "1995-12-05"
+        },
+        "expected_status": 201
+    },
+    {
+        "patient": {
+            "nom": "nom6",
+            "prenom": "prenom6"
+        },
+        "expected_status": 201
+    },
+    {
+        "patient": {
+            "prenom": "prenom7",
+            "date_naissance": "1998-09-18"
+        },
+        "expected_status": 400
+    },
+    {
+        "patient": {
+            "nom": "nom8",
+            "date_naissance": "1998-09-18"
+        },
+        "expected_status": 400
+    },
+    {
+        "patient": {
+            "nom": "nom9",
+            "prenom": "prenom9"
+        },
+        "expected_status": 201
+    },
+    {
+        "patient": {
+            "nom": "nom10",
+            "nir": "invalidNIR123456",
+            "date_naissance": "1998-09-18"
+        },
+        "expected_status": 400
+    },
+    {
+        "patient": {
+            "nom": "nom11",
+            "prenom": "prenom11",
+            "date_naissance": "1998-09-31"
+        },
+        "expected_status": 400
+    },
+    {
+        "patient": {
+            "nom": "nom12",
+            "prenom": "prenom12",
+            "nir": "923107090123467"
+        },
+        "expected_status": 400
+    },
+    {
+        "patient": {
+            "nom": "nom13",
+            "prenom": "prenom13",
+            "nir": "103512230123468",
+            "date_naissance": "1996-12-23"
+        },
+        "expected_status": 400
+    },
+    {
+        "patient": {
+            "nom": "nom14",
+            "prenom": "prenom14",
+            "nir": "113993040123469",
+            "date_naissance": "1994-03-04"
+        },
+        "expected_status": 400
+    },
+    {
+        "patient": {
+            "nom": "nom15",
+            "prenom": "prenom15",
+            "nir": "1230668250123470",
+            "date_naissance": "1993-08-25"
+        },
+        "expected_status": 400
+    },
+    {
+        "patient": {
+            "nom": "nom16",
+            "prenom": "prenom16",
+            "nir": "713506150123471",
+            "date_naissance": "1989-06-15"
+        },
+        "expected_status": 400
+    }
+]
