@@ -63,7 +63,6 @@ def generate_pdf(praticien, patient, dispositifs, prescription):
         pdf.cell(0, 10, l, ln=True, border=0)
 
     # Chemin pour enregistrer le fichier PDF
-    print(prescription)
     file_path = f"{patient['nom'].upper()}_{patient['prenom'].capitalize()}_{prescription['_id']}.pdf"
 
     # Enregistrer le fichier PDF
